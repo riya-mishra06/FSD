@@ -1,1 +1,110 @@
-Method
+📘 JavaScript String Methods
+1. trim()
+
+Removes whitespace from both ends.
+
+"  hello  ".trim(); // "hello"
+
+2. toUpperCase()
+
+Converts string to uppercase.
+
+"hello".toUpperCase(); // "HELLO"
+
+3. toLowerCase()
+
+Converts string to lowercase.
+
+"HELLO".toLowerCase(); // "hello"
+
+4. includes(value)
+
+Checks if string contains a given value.
+
+"JavaScript".includes("Java"); // true
+
+5. indexOf(value)
+
+Returns first index of given value, or -1 if not found.
+
+"hello".indexOf("l"); // 2
+
+6. lastIndexOf(value)
+
+Returns last index of given value.
+
+"hello".lastIndexOf("l"); // 3
+
+7. charAt(index)
+
+Returns character at given index.
+
+"hello".charAt(1); // "e"
+
+8. charCodeAt(index)
+
+Returns Unicode value of character at index.
+
+"A".charCodeAt(0); // 65
+
+9. concat()
+
+Joins two or more strings.
+
+"Hello".concat(" World"); // "Hello World"
+
+10. replace(search, newValue)
+
+Replaces first match with new value.
+
+"hi hi".replace("hi", "hello"); // "hello hi"
+
+11. replaceAll(search, newValue)
+
+Replaces all matches with new value.
+
+"hi hi".replaceAll("hi", "hello"); // "hello hello"
+
+12. split(separator)
+
+Splits string into array.
+
+"one,two,three".split(","); // ["one","two","three"]
+
+13. slice(start, end)
+
+Extracts part of string (supports negative index).
+
+"JavaScript".slice(0,4); // "Java"
+
+14. substring(start, end)
+
+Extracts part of string (no negative index).
+
+"JavaScript".substring(4,10); // "Script"
+
+15. substr(start, length) (old)
+
+Extracts part of string with length.
+
+"JavaScript".substr(4,6); // "Script"
+
+16. startsWith(value)
+
+Checks if string starts with given value.
+
+"JavaScript".startsWith("Java"); // true
+
+17. endsWith(value)
+
+Checks if string ends with given value.
+
+"JavaScript".endsWith("Script"); // true
+
+18. repeat(n)
+
+Repeats string n times.
+
+"hi".repeat(3); // "hihihi"
+
+
