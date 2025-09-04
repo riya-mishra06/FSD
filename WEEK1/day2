@@ -107,4 +107,10 @@ Repeats string n times.
 
 "hi".repeat(3); // "hihihi"
 
+19.Replace
+searches a value in the string & return a new string
+
+20.repeat 
+retuen a string with the number of copies 
+
 
