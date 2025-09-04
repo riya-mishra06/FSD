@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 JavaScript String Methods (Short Notes + Practice Questions)
 1. trim()
 
@@ -197,6 +197,7 @@ Repeats string n times.
 ❓ Practice:
 
 "JS" ko 5 baar repeat karke print karo.
+
 =======
 JavaScript String Methods (Short Notes + Practice Questions)
 1. trim()
