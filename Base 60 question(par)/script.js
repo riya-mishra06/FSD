@@ -1,25 +1,47 @@
-let about = document.querySelector("#about");
-let Cart = document.querySelector("#Cart");
-let Home= document.querySelector("#Home");
-
-let aboutText = document.querySelector("#aboutText");
-let CartText = document.querySelector("#CartText");
-let HomeText = document.querySelector("#HomeText");
+// // Make a button that toggles between light and dark modelet 
+// let con = document.querySelector(".container");
+// let dark = document.querySelector("#dark");
+// let light = document.querySelector("#light");
 
 
-about.addEventListener("clicl",()=>{
-    aboutText.style.display = "block";
+// let Isdark = false;
+// dark.addEventListener("click",()=>{
+//     if(Isdark){
+//         con.style.backgroundColor = "white";
+//     }else{
+//          con.style.backgroundColor = "black";
+//     }
+//     Isdark = !Isdark
+// })
+
+
+
+// let btn = document.querySelector("#black");
+// let con = document.querySelector(".container");
+
+// let Isdark = false;
+
+// btn.addEventListener("click",()=>{
+//     if(Isdark){
+//         con.style.backgroundColor = "white";
+//     }else{
+//         con.style.backgroundColor = "black"; 
+//     }
+//     Isdark = !Isdark;
+// })
+
+// Create a popup modal that opens and closes with buttons
+
+
+
+let open = document.querySelector("#open");
+let close = document.querySelector("#close");
+let con = document.querySelector(".con");
+
+
+open.addEventListener("click",()=>{
+    con.style.scale = "1.1";
 })
-
-Cart.addEventListener("clicl",()=>{
-    CartText.style.display = "block";
+close.addEventListener("click",()=>{
+    con.style.scale = "0";
 })
-
-Home.addEventListener("clicl",()=>{
-    HomeText.style.display = "block";
-})
-
-
-function hideAllText(){
-    document.querySelectorAll()
-}
