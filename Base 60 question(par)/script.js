@@ -20,11 +20,11 @@
 // img2.src = src1;
 // })
 
-let inp1 = document.querySelector('#name');
-let inp2 = document.querySelector('#mail');
-let h3 = document.querySelector("h3");
-let form = document.querySelector("form");
-let inp = document.querySelectorAll("input[type='text']")
+// let inp1 = document.querySelector('#name');
+// let inp2 = document.querySelector('#mail');
+// let h3 = document.querySelector("h3");
+// let form = document.querySelector("form");
+// let inp = document.querySelectorAll("input[type='text']")
 
 // form.addEventListener("submit", (ev) => {
 //     ev.preventDefault();
@@ -44,18 +44,55 @@ let inp = document.querySelectorAll("input[type='text']")
 // });
 
 
-form.addEventListener("submit",(ev)=>{
-   ev.preventDefault();
+// form.addEventListener("submit",(ev)=>{
+//    ev.preventDefault();
 
-   for(var i=0;i<inp.length;i++){
-    if(inp[i].value.trim() === ""){
-        h3.textContent = "SOMETHING IS WRONG";
-        h3.style.color = "red";
-        break;
-    }else{
-         h3.textContent = "FORM SUBMIT";
-    }
-   }
-})
+//    for(var i=0;i<inp.length;i++){
+//     if(inp[i].value.trim() === ""){
+//         h3.textContent = "SOMETHING IS WRONG";
+//         h3.style.color = "red";
+//         break;
+//     }else{
+//          h3.textContent = "FORM SUBMIT";
+//     }
+//    }
+// })
+
+// let ul = document.querySelector("ul");
+// let li;
+// let inp = document.querySelector("input");
+// let add = document.querySelector("#adds");
+// let remove = document.querySelector("#remove");
 
 
+// add.addEventListener("click",()=>{
+//     li = document.createElement("li");
+//     li.textContent = inp.value;
+//     ul.appendChild(li); 
+//     inp.value = "";
+// })
+// remove.addEventListener("click",()=>{
+//     ul.removeChild(li);    
+// })
+// let h3 = document.querySelector("h3");
+// let start = document.querySelector("#start");
+// let stop = document.querySelector("#stop");
+// let count = 0;
+// start.addEventListener("click",()=>{
+//      setInterval(() => {
+//         h3.textContent = count;
+//         count++;
+//       }, 1000);
+// });
+// stop.addEventListener("click",()=>{
+// });
+
+
+let top = document.querySelector("#top");
+let back = document.querySelector("#back");
+
+
+top.addEventListener("click", () => {
+//   top.style.position = "fixed";
+  top.style.bottom = "0";
+});
